@@ -1,14 +1,9 @@
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
 User-agent: *
 Allow: /
+Disallow: /404
+
+# Sitemap
+Sitemap: https://www.adityapackersandmoversrjy.in/sitemap.xml
+
+# Crawl-delay for well-behaved bots
+Crawl-delay: 1
